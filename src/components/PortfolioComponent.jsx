@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "./projectCard";
 import Timeline from "./timeLine";
 
 const projects = [
