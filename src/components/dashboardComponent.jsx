@@ -35,11 +35,11 @@ const DashboardComponent = () => {
             <span className="w-3 h-3 inline-block bg-white"></span>
           </h2>
         </div>
-        <div className="ml-20 mt-4">
+        {/* <div className="ml-20 mt-4">
           <button className="bg-buttonColorMain w-1/4 h-20 hover:bg-blue-700 text-white font-extrabold py-2 px-4 rounded">
             Previous Projects
           </button>
-        </div>
+        </div> */}
         <AboutMeComponent />
         <ExperienceComponent />
         <PortfolioComponent />

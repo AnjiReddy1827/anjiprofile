@@ -11,7 +11,7 @@ const Timeline = () => {
           {/* Timeline Line */}
           <div className="absolute left-1/2 h-full border-l-2 border-[#9333EA]"></div>
           <div>
-            <div className="flex flex-row items-center mr-[243px] sm:mr-[15.6rem]">
+            <div className="flex flex-row items-center mr-[243px] sm:mr-[17rem]">
               {/* Left Side Content */}
               <div className="flex flex-col gap-4 items-start">
                 <div className="text-[#9333EA] font-semibold text-lg">
