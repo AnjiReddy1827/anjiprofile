@@ -1,9 +1,8 @@
 "use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
-import animationData from "../../public/Animation - 1741531568112.json"; // Replace with your JSON file
+import dynamic from "next/dynamic"; // Import dynamic for client-side loading
 import { Button } from "../components/ui/button";
 import {
   Card,
@@ -13,6 +12,10 @@ import {
   CardHeader,
   CardTitle,
 } from "../components/ui/card";
+
+// Dynamically import Lottie to prevent SSR issues
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+import animationData from "../../public/Animation - 1741531568112.json"; // Ensure this file exists
 
 export default function Home() {
   const handleCancel = () => {
