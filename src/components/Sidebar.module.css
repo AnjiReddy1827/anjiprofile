@@ -1,0 +1,16 @@
+.sidebarContainer {
+  height: 100%;
+  max-height: 89.7%;
+  min-height: 90%;
+  /* Max height of 10% of viewport height */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+  /* Add any additional styling you need */
+}
+.dashBoardContainer {
+  height: 100%;
+  max-height: 94.1%;
+  min-height: 90%;
+  /* Max height of 10% of viewport height */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+  /* Add any additional styling you need */
+}
