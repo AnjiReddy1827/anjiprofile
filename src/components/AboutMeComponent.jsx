@@ -26,7 +26,7 @@ const AboutMeComponent = () => {
             <div className="relative w-3/4 md:w-1/3 lg:w-1/4 mx-auto md:mx-0">
               <div className="relative z-10">
                 <Image
-                  src="/image/profile.jpg"
+                  src="/image/anji-profile-image2.jpeg"
                   alt="Profile Image"
                   width={250}
                   height={250}
@@ -40,8 +40,8 @@ const AboutMeComponent = () => {
             <div className="w-full md:w-2/3 text-center md:text-left">
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-lg mb-6 leading-relaxed">
-                I am a React.js Developer with 4.10+ years of IT experience,
-                including 3.6+ years of expertise in React.js and 6 months in
+                I am a React.js Developer with 5.1+ years of IT experience,
+                including 4+ years of expertise in React.js and 1 year in
                 Node.js, MongoDB, and Vue.js. I specialize in building scalable,
                 high-performance web applications using React.js, Redux,
                 Next.js, TypeScript, and Tailwind CSS, ensuring modern UI/UX
